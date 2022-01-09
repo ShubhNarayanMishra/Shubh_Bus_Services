@@ -1,0 +1,83 @@
+body{
+    background-color: blue;
+}
+
+header{
+    background-color: white;
+    justify-content:center;
+    border:3px solid #6c757d;
+    border-radius:20px 20px 20px 20px;
+    margin-top:0px;
+    padding:0px;
+    
+}
+
+.heading{
+    text-align:center ;
+    display: block;
+    color:rgb(17, 17, 17);
+    background-color:white;
+    font-size: 30px;
+    margin: 0px;
+    border-bottom: 0px;
+    border-radius:inherit;
+    
+}
+
+.home{
+    margin-left:50px;
+}
+
+section{
+    margin:1rem;
+    padding:5px 10px;
+    background-color: white; 
+    border-radius:1rem;
+}
+div{
+    border-bottom:.3rem  solid #e9ecef;
+    padding:0.5rem;
+}
+
+div:nth-of-type(1){
+    display:flex;
+    background-image:url("bus\ background.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    min-height:200px;
+    border-radius: inherit;
+    font-size: 18px;
+    font-weight: bolder;
+    word-spacing:6px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color:red;
+    border:none;
+
+}
+
+
+div:nth-of-type(2){
+    display:flex;
+    b 
+
+
+}
+
+div:nth-of-type(3){
+    border:0px;
+    
+}
+
+
+nav li{
+    display:inline;
+    margin: 0.5rem;
+    font-size:15px;
+    display:none;   
+}
+
+a{
+    text-decoration: none;
+}
+
